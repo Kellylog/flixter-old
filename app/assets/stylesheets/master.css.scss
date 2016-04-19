@@ -1,3 +1,16 @@
+.clr {
+  clear:both;
+}
+
+.field {
+  font-family: verdana;
+}
+
+
+.actions {
+  font-family: verdana;
+}
+
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -7,6 +20,7 @@
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top:30px;
   padding:20px;
+  text-align: center;
 }
 
 .navbar {
@@ -38,6 +52,7 @@
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin:0;
+  font-family: verdana;
 }
 
 .frosty {
