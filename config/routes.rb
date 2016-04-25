@@ -7,7 +7,8 @@ Flixter::Application.routes.draw do
 
   namespace :instructor do
      resources :courses, only: [:new, :create, :show] do
-      resources :sections, only: [:new, :create]
+      resources :sections, only: [:new, :create] do
+        resources :lessons, only: [:new, :create]
     end
     
   end
@@ -65,4 +66,5 @@ Flixter::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+end
 end
